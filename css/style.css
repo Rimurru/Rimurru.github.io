@@ -102,6 +102,33 @@ body {
     background-color: rgba(0,0,0,.5);
     color: white;
 }
+/* gallery */
+.gallery {
+    width: 700px;
+    height: 190px;
+    border: 2px solid #333;
+    margin: 100px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.gallery img:hover {
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+div.gallery a {
+    width: 100%;
+    height: auto;
+}
 /* hero img */
 
 .hero {
